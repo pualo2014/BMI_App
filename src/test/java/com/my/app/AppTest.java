@@ -16,8 +16,8 @@ class AppTest {
          double h=1.6;
 
          boolean val= BMICalculator.isDietRecommended(w,h);
-        System.out.println("+++++++++++++++++++++++++ TESTING ++++++++++++++++++++++++++ ");
-         assertTrue(val);
+         System.out.println("+++++++++++++++++++++++++ TESTING ++++++++++++++++++++++++++ ");
+         assertFalse(val);
          System.out.println("Everything is just wonderful !");
        /*
 
